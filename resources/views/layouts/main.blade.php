@@ -22,9 +22,6 @@
 
     </head>
     <body class="antialiased">
-        <div class="alert alert-primary" role="alert">
-            A simple primary alert—check it out!
-          </div>
         @yield('content')
         <footer>
             <p>Flankton &copy;2022</p>
