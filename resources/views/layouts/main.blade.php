@@ -19,7 +19,7 @@
                 font-family: 'Nunito';
             }
         </style>
-        <link href="/css/app.css" rel="stylesheet">
+
     </head>
     <body class="antialiased">
         <div class="alert alert-primary" role="alert">
@@ -29,6 +29,6 @@
         <footer>
             <p>Flankton &copy;2022</p>
         </footer>
-        <script src="/js/app.js"></script>
+
     </body>
 </html>
