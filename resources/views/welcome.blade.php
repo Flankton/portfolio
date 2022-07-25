@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Flankton')
+@section('title', 'William Resume')
 
 @section('content')
 <!DOCTYPE html>
@@ -10,13 +10,14 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>MyResume Bootstrap Template - Index</title>
+  <title>Resumo William - Index</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="{{ asset('img/favicon.png') }}" rel="icon">
   <link href="{{ asset('img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -33,10 +34,8 @@
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: MyResume - v4.8.0
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
+  * Template Name: William Resume - v1
+  * Author: William Flankton Ferreira
   ======================================================== -->
 </head>
 
@@ -51,11 +50,11 @@
     <nav id="navbar" class="navbar nav-menu">
       <ul>
         <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Sobre</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resumo</span></a></li>
         <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Serviços</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contato</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -64,14 +63,14 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Brandon Johnson</h1>
-      <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+      <h1>William Flankton</h1>
+      <p>I sou <span class="typed" data-typed-items="Desenvolvedor, Freelancer, Engenheiro"></span></p>
       <div class="social-links">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <!--<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
+        <a href="https://www.linkedin.com/in/william-fferreira" target="blank_" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
   </section><!-- End Hero -->
@@ -83,8 +82,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Sobre</h2>
+          <p>Me chamo William Flankton, sou formado pela Universidade Federal do Pará em Engenharia da Computação e trabalho como desenvolvedor de <i>software</i> a mais de 4 anos. Trabalho atualmente com as linguagens de programação <b>PHP</b> e <b>JavaScript</b>. Atuo na criação de páginas web, sistemas de informações e aplicativos para desktop.</p>
         </div>
 
         <div class="row">
@@ -92,32 +91,32 @@
             <img src="{{ asset('img/profile-img.jpg') }}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>UI/UX Designer &amp; Web Developer.</h3>
+            <h3>Engenheiro de Software &amp; Desenvolvedor Web.</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Resumo pessoal.
             </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nascimento:</strong> <span>15 Janeiro 1991</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.flankton.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>(48) 99662-4089</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Cidade:</strong> <span>Florianópolis, SC</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Idade:</strong> <span>30</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Grau de escolaridade:</strong> <span>Graduação</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>E-Mail:</strong> <span>will.engecomp@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Disponível</span></li>
                 </ul>
               </div>
             </div>
             <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+                Natural da cidade de Bragança no interior do Pará. Dediquei-me aos estudos logo cedo e ingressei na universidade na primeira tentativa de vestibular.
+                Passei oito anos na cidade de Belém onde cursei a graduação e iniciei a vida de desenvolvedor antes mesmo de finalizar o curso. Inicialmente como desenvolvedor <i>desktop</i>  e <i>mobile</i>.
+                Depois de graduado mudei para Florianópolis, onde moro atualmente, e trabalho como desenvolvedor web.
             </p>
           </div>
         </div>
@@ -126,7 +125,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
+    <!--<section id="facts" class="facts">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -171,7 +170,7 @@
         </div>
 
       </div>
-    </section><!-- End Facts Section -->
+    </section> End Facts Section -->
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">

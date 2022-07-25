@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>@yield('title')</title>
-
+        <link rel="icon" type="imagem/png" href="{{ asset('img\letter-w.png') }}" />
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -23,9 +23,6 @@
     </head>
     <body class="antialiased">
         @yield('content')
-        <footer>
-            <p>Flankton &copy;2022</p>
-        </footer>
 
     </body>
 </html>

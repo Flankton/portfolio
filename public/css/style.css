@@ -1,8 +1,6 @@
 /**
-* Template Name: MyResume - v4.8.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Template Name: William Resume - v1
+* Author: Wiliam Flankton
 */
 
 /*--------------------------------------------------------------
@@ -156,7 +154,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .nav-menu {
   padding: 0;
@@ -243,7 +241,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   position: fixed;
