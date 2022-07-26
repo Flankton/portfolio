@@ -64,7 +64,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>William Flankton</h1>
-      <p>I sou <span class="typed" data-typed-items="Desenvolvedor, Freelancer, Engenheiro"></span></p>
+      <p>Eu sou <span class="typed" data-typed-items="Desenvolvedor, Freelancer, Engenheiro"></span></p>
       <div class="social-links">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -114,7 +114,7 @@
               </div>
             </div>
             <p>
-                Natural da cidade de Bragança no interior do Pará. Dediquei-me aos estudos logo cedo e ingressei na universidade na primeira tentativa de vestibular.
+                Natural da cidade de Bragança no interior do Pará. Dediquei-me aos estudos e ingressei na universidade cedo.
                 Passei oito anos na cidade de Belém onde cursei a graduação e iniciei a vida de desenvolvedor antes mesmo de finalizar o curso. Inicialmente como desenvolvedor <i>desktop</i>  e <i>mobile</i>.
                 Depois de graduado mudei para Florianópolis, onde moro atualmente, e trabalho como desenvolvedor web.
             </p>
@@ -178,7 +178,7 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Atualmente trabalho e tenho experiência com as seguintes tecnologias.</p>
         </div>
 
         <div class="row skills-content">
@@ -193,17 +193,24 @@
             </div>
 
             <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
+              <span class="skill">CSS <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <span class="skill">JavaScript <i class="val">85%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
+            </div>
+
+            <div class="progress">
+                <span class="skill">vue.js <i class="val">65%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
             </div>
 
           </div>
@@ -211,24 +218,31 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">PHP <i class="val">80%</i></span>
+              <span class="skill">PHP <i class="val">95%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <span class="skill">Laravel <i class="val">85%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">Photoshop <i class="val">55%</i></span>
+              <span class="skill">MySQL <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
+            </div>
+
+            <div class="progress">
+                <span class="skill">Yii <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
             </div>
 
           </div>
@@ -243,62 +257,110 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Currículo</h2>
+          <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
         </div>
 
         <div class="row">
           <div class="col-lg-6">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 class="resume-title">Resumo</h3>
             <div class="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <h4>William Flankton</h4>
+              <p><em>Carreira em evolução na área da Tecnologia, atuando como
+                desenvolvedor PHP back-end. Experiência com framework de
+                desenvolvimento ágil (SCRUM) e boas práticas de programão com
+                Object Calisthenics. Uso diário de Git E Github.</em></p>
               <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
+                <li>Florianópolis, SC</li>
+                <li>(48) 99662-4089</li>
+                <li>will.engecomp@gmail.com</li>
               </ul>
             </div>
 
-            <h3 class="resume-title">Education</h3>
+            <h3 class="resume-title">Formação Acadêmica</h3>
             <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+              <h4>Engenheiro da Computação</h4>
+              <h5>2014 - 2020</h5>
+              <p><em>Universidade Federal do Pará, Belém, PA</em></p>
+              <p>Graduado pela Universidade Federal do Pará no curso de Engenharia da Computação pela Faculdade de Engenharia da Computação e Telecomunicações</p>
             </div>
-            <div class="resume-item">
+            <!--<div class="resume-item">
               <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
               <h5>2010 - 2014</h5>
               <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
               <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            </div>-->
+            <h3 class="resume-title">Atividades Extras</h3>
+            <div class="resume-item">
+              <h4>INICIAÇÃO CIENTÍFICA PIBIC</h4>
+              <h5>2014 - 2016</h5>
+              <p><em>Universidade Federal do Pará, Belém, PA</em></p>
+              <p>Projeto IRACEMA ( Instrumentos Robóticos Autônomos de Coleta e Monitoramento Ambiental )</p>
             </div>
+            <div class="resume-item">
+              <h4>INICIAÇÃO CIENTÍFICA PIBIC/CNPq</h4>
+              <h5>2016 - 2017</h5>
+              <p><em>Universidade Federal do Pará, Belém, PA</em></p>
+              <p>Projeto NAVEGA AMAZON CONNECT ( Estendendo o NavegaPará e
+                conectando a Amazônia com novas tecnologias, serviços, protocolos
+                e aplicações para redes sem fio – do meio ambiente a inclusão
+                social )</p>
+            </div>
+            <div class="resume-item">
+                <h4>programa Eixo Transversal</h4>
+                <h5>2017 - 2018</h5>
+                <p><em>Universidade Federal do Pará, Belém, PA</em></p>
+                <p>Projeto VIVA! Universidade ( Jornal eletrônico para escolas públicas )</p>
+              </div>
           </div>
           <div class="col-lg-6">
-            <h3 class="resume-title">Professional Experience</h3>
+            <h3 class="resume-title">Experiências Profissionais</h3>
             <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>Desenvolvedor PHP</h4>
+              <h5>2021 - Atual</h5>
+              <p><em>iBrowse, Florianópolis, SC </em></p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                <li>Desenvolvimento de sistemas internos da policia militar de Santa Catarina</li>
+                <li>Desenvolvedor PHP front-end e back-end</li>
+                <li>Framework YII/YII2</li>
+                <li>DB MySQL SGDB DBeaver</li>
               </ul>
             </div>
             <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <h4>Desenvolvedor PHP</h4>
+              <h5>2021 - 2021</h5>
+              <p><em>Kebook, São José, SC</em></p>
               <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                <li>Desenvolvedor back-end em uma plataforma online de cursos</li>
+                <li>Frameworks Laravel e Lumen</li>
+                <li>DB MySQL SGDB DBeaver</li>
+                <li>Metodologia SCRUM gerenciada pela plataforma TAIGA</li>
+                <li>Sistemas Linux</li>
               </ul>
             </div>
+            <div class="resume-item">
+                <h4>Desenvolvedor Windev</h4>
+                <h5>2018 - 2020</h5>
+                <p><em>4dev Solutions, Belém, PA </em></p>
+                <ul>
+                  <li>Desenvolvedor desktop windows e mobile para um sistema de automação comercial e aplicativos diversos</li>
+                  <li>Desenvolvedor WINDEV e WINDEV MOBILE</li>
+                  <li>Framework WINDEV</li>
+                  <li>DB mariaDB SGDB HeidiSQL</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Estagiário Programador</h4>
+                <h5>2020 - 2021</h5>
+                <p><em>Anatel, Belém, PA </em></p>
+                <ul>
+                  <li>Desenvolvedor desktop. Trabalho com automação de processos</li>
+                  <li>Programador</li>
+                  <li>Linguagens Python, WLanguage e JAVA</li>
+                </ul>
+              </div>
           </div>
+      </div>
         </div>
 
       </div>
