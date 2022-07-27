@@ -372,7 +372,7 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Trabalhei em projetos em diversas áreas, como: automação comercial, sistemas de gerenciamento de serviços, páginas web, plataforma de cursos, etc. E muitos outros que não pude divulgar aqui por questões contratuais.</p>
         </div>
 
         <div class="row">
@@ -380,7 +380,7 @@
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-card">Sistemas</li>
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
@@ -390,13 +390,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="{{ asset('img/portfolio/portfolio-1.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('img/portfolio/mzchome2.jpeg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
+                <h4>MyZapCard</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="{{ asset('img/portfolio/portfolio-1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="{{ asset('img/portfolio/mzchome2.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="MyZapCard"><i class="bx bx-plus"></i></a>
+                  <a href="{{ route('details') }}" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
