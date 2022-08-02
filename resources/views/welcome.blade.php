@@ -9,6 +9,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <title>Resumo William - Index</title>
   <meta content="" name="description">
@@ -49,15 +50,14 @@
 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Sobre</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resumo</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Serviços</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contato</span></a></li>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bxs-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bxs-user-detail"></i> <span>Sobre</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bxs-file"></i> <span>Resumo</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bxs-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bxs-factory"></i> <span>Serviços</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bxs-envelope"></i> <span>Contato</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
-
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
@@ -446,26 +446,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="{{ asset('img/portfolio/portfolio-5.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('img/portfolio/mzccards2.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 2</h4>
+                <h4>MyZapCard</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="{{ asset('img/portfolio/portfolio-5.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="{{ asset('img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="{{ asset('img/portfolio/portfolio-6.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="{{ asset('img/portfolio/mzccards2.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="MyzapCard"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -474,12 +460,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="'{{ asset('img/portfolio/portfolio-7.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('img/portfolio/sistema1.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
+                <h4>Sistema de automação impactus</h4>
+                <p>Sistema</p>
                 <div class="portfolio-links">
-                  <a href="{{ asset('img/portfolio/portfolio-7.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="{{ asset('img/portfolio/sistema1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Impactus"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -488,12 +474,26 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="{{ asset('img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
+              <img src="'{{ asset('img/portfolio/sistema1.png') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
+                <h4>Impactus</h4>
+                <p>Sistema</p>
                 <div class="portfolio-links">
-                  <a href="{{ asset('img/portfolio/portfolio-8.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="{{ asset('img/portfolio/sistema1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Impactus"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('img/portfolio/sistema2.png') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sistema de ordem de serviço</h4>
+                <p>Sistema</p>
+                <div class="portfolio-links">
+                  <a href="{{ asset('img/portfolio/sistema2.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Impactus"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -502,12 +502,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="{{ asset('img/portfolio/portfolio-9.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('img/portfolio/construcao.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
+                <h4>Portifólio em construção</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="{{ asset('img/portfolio/portfolio-9.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="{{ asset('img/portfolio/construcao.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Construção"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -733,7 +733,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="{{ route('enviaremail') }}" method="POST" role="form" class="php-email-form">
+            <form action="{{ (route('emailpost')) }}" method="POST" role="form" class="php-email-form">
                 @csrf
               <div class="row">
                 <div class="col-md-6 form-group">
@@ -755,6 +755,7 @@
                 <div class="sent-message">Mensagem enviada com sucesso. Obrigado!</div>
               </div>
               <div class="text-center"><button type="submit">Enviar mensagem</button></div>
+
             </form>
 
           </div>
