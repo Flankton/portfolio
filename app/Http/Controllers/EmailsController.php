@@ -14,7 +14,11 @@ class EmailsController extends Controller
 
     public function emailPost(Request $request){
         Mail::to($request->email)->send(new WelcomeMail($request));
-        return ['sucess' => 'ok'];
 
+
+    if (Mail::failures()) {
+        return "NO";
+    }
+        return "OK";
     }
 }
